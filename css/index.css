@@ -1,3 +1,26 @@
+@media (max-width: 500px) {
+  body {
+    margin: auto 0;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  .content-section {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .img-content {
+    width: 100%;
+  }
+}
 button {
   display: flex;
   background-color: #006667;
