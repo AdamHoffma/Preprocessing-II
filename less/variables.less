@@ -12,3 +12,37 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+@mobile: ~"(max-width: 500px)";
+body {
+    @media @mobile {
+        margin: auto 0
+    }
+}
+.container {
+      @media @mobile {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.navbar {
+    @media @mobile {
+        
+    }
+}
+
+.content-section {
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+.img-content {
+    @media @mobile {
+        width: 100%;
+    }
+}
+

@@ -1,1 +1,19 @@
-// Mixins in here
+
+
+.buttons(@width, @height) {
+    display: flex;
+    background-color: darken(teal, 5%);
+    width: @width;
+    border-radius: 10px;
+    color: white;
+    height: @height;
+    justify-content: center;
+    ;
+    
+}
+
+button {
+    .buttons(80%, 4rem)
+    
+}
+
